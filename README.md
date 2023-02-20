@@ -9,6 +9,8 @@ OS Theory Assignment 1, k213062
 
 4: In Makefile add this
 obj-y := hello.o
+![image](https://user-images.githubusercontent.com/123382738/220135523-0eff73a9-65b3-48ab-9385-ebc43475cd58.png)
+
 
 5: We have to add the system call entry into the syscall_64.tbl file which keeps the name of all the system. For doing this we will open that file by running command in terminal which will open a file 
 
@@ -27,3 +29,5 @@ obj-y := hello.o
 12: We will now write the configuration file
 
 13: We have to clean our processes in the kernel by typing “make clean -j4” , we now type “make -j4” to start building our kernel
+![image](https://user-images.githubusercontent.com/123382738/220135365-79654371-69f3-49c1-83a6-48d7077d19fd.png)
+
