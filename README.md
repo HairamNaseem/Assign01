@@ -15,14 +15,20 @@ obj-y := hello.o
 5: We have to add the system call entry into the syscall_64.tbl file which keeps the name of all the system. For doing this we will open that file by running command in terminal which will open a file 
 
 6: In the syscall_64.tbl file scroll down to line [334], in the next line put this line (which will be line 335), then save the file.
+![image](https://user-images.githubusercontent.com/123382738/220136217-201ef25b-3c54-49e7-973f-f042fffa18d3.png)
+
 
 7: Now we have to add the prototype of our system call in the system’s header file. In kernel folder “/include/linux/syscalls.h” we have to add the prototype of our system call function in this file.
 
 8: In this file we just have to add our function call in the system file by simply typing in the function name in the end, save it.
+![image](https://user-images.githubusercontent.com/123382738/220136355-a73ee28f-8b19-40ee-b4c8-297390c759ab.png)
+
 
 9: Open Makefile and in Extraversion put the value equal to the roll number
 
 10: Press CTRL+F in the same file and search for "core-y", navigate to second instance and in the end of the line put " hello/"
+![image](https://user-images.githubusercontent.com/123382738/220136523-bf851848-4c17-44e3-92bb-f814016e9722.png)
+
 
 11: We have to create a config file for our kernel. First, we search for the current config, copy the config, typing “cp /boot/config-4.10.0-28-generic /workingdirectory”
 
