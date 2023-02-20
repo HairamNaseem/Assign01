@@ -34,6 +34,6 @@ obj-y := hello.o
 
 12: We will now write the configuration file
 
-13: We have to clean our processes in the kernel by typing “make clean -j4” , we now type “make -j4” to start building our kernel
+13: We have to clean our processes in the kernel by typing “make clean -j1” , we now type “make -j1” to start building our kernel
 ![image](https://user-images.githubusercontent.com/123382738/220135365-79654371-69f3-49c1-83a6-48d7077d19fd.png)
 
