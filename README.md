@@ -2,6 +2,8 @@
 OS Theory Assignment 1, k213062
 
 1: First we will download Kernel from kernel.org i did 4.19.272 Version [tarball] format. After it is downloaded extract the folder and in the extracted folder will make a new folder named 'hello'.
+![image](https://user-images.githubusercontent.com/123382738/220141070-0a1f0243-9e17-4d32-b7c4-45c717924d05.png)
+
 
 2: In that folder, Run a terminal, we'll make two files 'hello.c' (our task to run) and Makefile via terminal commands 'gedit hello.c' and gedit Makefile respectively
 
