@@ -39,3 +39,6 @@ obj-y := hello.o
 13: We have to clean our processes in the kernel by typing “make clean -j1” , we now type “make -j1” to start building our kernel
 ![image](https://user-images.githubusercontent.com/123382738/220135365-79654371-69f3-49c1-83a6-48d7077d19fd.png)
 
+![image](https://user-images.githubusercontent.com/123382738/220696607-716dafad-5b89-47e2-9492-ad56ed2be404.png)
+
+
