@@ -42,8 +42,18 @@ obj-y := hello.o
 
 ![image](https://user-images.githubusercontent.com/123382738/220696607-716dafad-5b89-47e2-9492-ad56ed2be404.png)
 
-14. now we will restart ubuntu and then choose ubuntu version with our roll number
+14: now we will restart ubuntu and then choose ubuntu version with our roll number
 ![image](https://user-images.githubusercontent.com/123382738/221155606-7db1cbda-f48d-485b-9986-f4d24dc46e0d.png)
+
+15: write "uname -r" in ubuntu to check if you have done correctly
+![image](https://user-images.githubusercontent.com/123382738/221157023-643e5716-f1d2-43a7-b267-6c1efb146da9.png)
+
+16: now make a c file and write the following code to check if the system call you made works
+![image](https://user-images.githubusercontent.com/123382738/221158495-f523860e-541e-4734-8738-01365854781d.png)
+
+17: you can verify through writing "dmesg" in terminal
+![image](https://user-images.githubusercontent.com/123382738/221158909-c262bff3-45bd-421b-b3df-7a02b60cedb0.png)
+
 
 
 
